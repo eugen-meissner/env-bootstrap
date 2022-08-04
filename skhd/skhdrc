@@ -1,0 +1,25 @@
+## HYPER == SHIFT + CMD + ALT + OPTION
+
+## Quickly restart the yabai launch agent
+ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+
+## Close active application
+hyper - backspace : $(yabai -m window $(yabai -m query --windows --window | jq -re ".id") --close)
+
+## rotate tree 90
+hyper - r : yabai -m space --rotate 90
+
+## window navigation
+hyper - h : yabai -m window --focus west
+hyper - l : yabai -m window --focus east
+hyper - j : yabai -m window --focus south
+hyper - k : yabai -m window --focus north
+
+## windows swap
+cmd - h : yabai -m window --swap west
+cmd - l : yabai -m window --swap east
+cmd - j : yabai -m window --swap south
+cmd - h : yabai -m window --swap north
+
+## toggle float for active window
+hyper - t : yabai -m window --toggle float
