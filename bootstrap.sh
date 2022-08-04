@@ -40,8 +40,6 @@ PACKAGES=(
     python3
     azure-cli
     openssl
-    docker
-    transmission-cli
     flycut
     skhd
     nmap
@@ -61,6 +59,7 @@ CASKS=(
     yabai
     firefox
     signal
+    transmission
     dotnet-sdk
     visual-studio-code 
     sublime-text
