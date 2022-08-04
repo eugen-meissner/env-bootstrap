@@ -23,6 +23,8 @@ PACKAGES=(
     stylua
     prettier
     thefuck
+    podman
+    qemu
     z
     fd
     neovim
@@ -56,11 +58,8 @@ CASKS=(
     iterm2
     neovide
     karabiner-elements
-    spacelauncher
     yabai
-    ubersicht
     firefox
-    macs-fan-control
     signal
     dotnet-sdk
     visual-studio-code 
